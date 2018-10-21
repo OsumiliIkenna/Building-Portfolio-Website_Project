@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative|Hanuman|Nixie+One);
+body html {
+	margin:  0 auto;
+	padding:  0 auto;
+}
+
+body {
+	font-family: 'Hanuman', serif;
+	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Nixie One', cursive;
+	background-color: #fff;
+	font-size: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.container-article{
+	background-color: #fff;
+}
+
+.code {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.code 
+img {
+	display: flex;
+	max-width: 100%;
+	max-height: 400px;
+}
+
+.footer-section {
+	border-top: 2px solid #223c49;
+	width: 100%;
+	max-height: 30px;
+	text-align: center;
+	color: #7d97ad;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+.footer-section, 
+.main-footer, 
+p {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: top;
+}
+
+.feature-work {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.feature-work, 
+p {
+	width: 100%;
+	line-height: 1.9em;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-bottom: 4px solid #2d3c49;
+	background-color: white;
+}
+
+header 
+.logo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 6.5%;
+	flex-direction: column;
+	float: left;
+	justify-content: center;	
+}
+
+header, 
+.logo 
+img {
+	max-height: auto;
+	max-width: auto;
+	padding-left: 2px;
+}
+
+header 
+.heading-text {
+	display: flex;
+	flex-wrap: wrap;
+	width: 93.5%;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	align-items: flex-end;	
+}
+
+header, 
+.heading-text {
+	margin: 10px 0px;
+	padding: 10px 0px;	
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;	
+}
+
+.container, img {
+	width: 100%;
+}
+
+.bulb, 
+.air, 
+.apple {
+	margin-right: 15px;
+	width: calc((100% - 30px)/3);
+}
+
+.container, 
+.apple:last-of-type {
+	margin-right: 0;
+}
+
+.bulb, 
+.bulb-text {
+	text-align: center;
+}
+
+.air, 
+.air-text {
+	text-align: center;
+}
+
+.apple, 
+.apple-text {
+	text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+	header, 
+	.heading-text 
+	h2 {
+		font-size: 1.2em;
+	}
+
+	.bulb, 
+	.bulb-text {
+		text-align: center;
+		font-size: 1.1em;
+	}
+
+	.air, 
+	.air-text {
+		text-align: center;
+		font-size: 1.1em;
+	}
+
+	.apple, 
+	.apple-text {
+		text-align: center;
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	header, 
+	.heading-text 
+	h1 {
+		font-size: 2em;
+	}
+
+	header, 
+	.heading-text 
+	h2 {
+		font-size: 1em;
+	}
+
+	header, 
+	.heading-text 
+	h1, 
+	.heading-text
+	h2 {
+		line-height: 0.06em;
+		letter-spacing: 0.1em;	
+	}
+
+	.bulb, 
+	.bulb-text {
+		text-align: center;
+		font-size: 1.1em;
+	}
+
+	.air, 
+	.air-text {
+		text-align: center;
+		font-size: 1.1em;
+	}
+
+	.apple, 
+	.apple-text {
+		text-align: center;
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 600px) {	
+	header, 
+	.heading-text 
+	h1 {
+	font-size: 1.6em;
+	}
+
+	header, 
+	.heading-text 
+	h2 {
+		font-size: 0.7em;
+	}
+
+	header, 
+	.heading-text 
+	h1, 
+	.heading-text 
+	h2 {
+		line-height: 0.1em;
+		letter-spacing: 0.1em;	
+	}
+
+	.bulb, 
+	.bulb-text {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	.air, 
+	.air-text {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	.apple, 
+	.apple-text {
+		text-align: center;
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 399px) {	
+	header, 
+	.heading-text 
+	h1 {
+	font-size: 1.2em;
+	}
+
+	header, 
+	.heading-text 
+	h2 {
+		font-size: 0.75em;
+	}
+
+	header, 
+	.heading-text h1, 
+	.heading-text h2 {
+		line-height: 0.1em;
+		letter-spacing: 0.1em;	
+	}
+
+	.bulb, 
+	.bulb-text {
+		text-align: center;
+		font-size: 0.7em;
+	}
+
+	.air, 
+	.air-text {
+		text-align: center;
+		font-size: 0.7em;
+	}
+
+	.apple, 
+	.apple-text {
+		text-align: center;
+		font-size: 0.7em;
+	}
+}
+
+@media screen and (max-width: 298px) {	
+	header, 
+	.heading-text h1 {
+	font-size: 1em;
+	}
+
+	header, 
+	.heading-text h2 {
+		font-size: 0.6em;
+	}
+
+	.bulb, .bulb-text {
+		text-align: center;
+		font-size: 0.6em;
+	}
+
+	.air, 
+	.air-text {
+		text-align: center;
+		font-size: 0.6em;
+	}
+
+	.apple, 
+	.apple-text {
+		text-align: center;
+		font-size: 0.6em;
+	}
+
+	.footer-section, 
+	.main-footer, 
+	p {
+		font-size: 0.8em;
+	}
+
+}
+
+
+
+
+
+
